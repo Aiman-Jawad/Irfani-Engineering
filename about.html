@@ -1,0 +1,922 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Untree.co" />
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/tiny-slider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/logo.css" rel="stylesheet" />
+
+    <title>About Us</title>
+    <style>
+      .carousel-container {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+      }
+      .carousel-track {
+        display: flex;
+        animation: scroll-left 15s linear infinite;
+      }
+      .carousel-item {
+        flex: 0 0 calc(100% / 5); /* Adjusted for 5 logos in a row */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .carousel-item img {
+        max-width: 100%;
+        height: auto;
+        max-height: 100px;
+      }
+
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .carousel-item {
+          flex: 0 0 calc(100% / 3); /* Adjust for smaller screens */
+        }
+        .carousel-item img {
+          max-height: 80px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .carousel-item {
+          flex: 0 0 calc(100% / 2); /* Adjust for smallest screens */
+        }
+        .carousel-item img {
+          max-height: 60px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Start Header/Navigation -->
+    <nav
+      class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
+      arial-label="Furni navigation bar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          >Irfani Engineering Works<span>.</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsFurni"
+          aria-controls="navbarsFurni"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsFurni">
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li><a class="nav-link" href="products.html">Products</a></li>
+            <li><a class="nav-link" href="contact.html">Contact us</a></li>
+            <li><a class="nav-link" href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header/Navigation -->
+
+    <!-- Start Hero Section -->
+    <div class="hero">
+      <div class="container">
+        <div class="row justify-content-center justify-content-evenly">
+          <div class="col-lg-11">
+            <div class="">
+              <h1>About Us</h1>
+              <p class="mb-4">
+                Irfani Engineering Works was established approximately thirty
+                years ago as an individual enterprise and later transitioned
+                into a Private Limited Company. Initially, our focus was on
+                manufacturing metal cans for the paints industry. Over time, we
+                expanded our operations to include the production of plastic
+                cans, incorporating advanced technologies such as Heat Transfer
+                Labeling (HTL) and In-Mould Labeling (IML). Today, we are
+                recognized as one of the leading can manufacturers in Pakistan.
+              </p>
+              <p class="mb-4">
+                Our customer base is extensive and includes all major
+                multinational and local paint manufacturers in Pakistan. We are
+                proud suppliers to AkzoNobel, Berger, Nippon, Kansai, Jotun,
+                along with prominent local brands such as Brighto Paints,
+                Diamond Paints, Master Paints, Gobi’s Paints, and Happilac
+                Paints.
+              </p>
+
+              <p class="mb-4">
+                We have a state-of-the-art production facility, fully equipped
+                with advanced machinery, workshops, and laboratories for
+                in-house development and maintenance. Our infrastructure ensures
+                precision, efficiency, and quality control at every stage of
+                production.
+              </p>
+
+              <p class="mb-4">
+                At Irfani Engineering Works, we have a dedicated team of highly
+                qualified and experienced professionals who oversee daily
+                operations, ensuring seamless production and timely deliveries.
+              </p>
+
+              <p class="mb-4">
+                Our commitment is to provide high-quality cans at competitive
+                prices while maintaining strict quality standards and timely
+                deliveries. Through continuous improvement in systems,
+                technology, and customer partnerships, we strive for excellence
+                and long-term growth.
+              </p>
+              <p class="pb-5">
+                <a href="products.html" class="btn btn-secondary me-2"
+                  >Products and Services</a
+                >
+              </p>
+            </div>
+          </div>
+          <!--
+          <div class="col-lg-7">
+            <div class="hero-img-wrap">
+              <img src="images/couch.png" class="img-fluid" />
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!--START OF INDUSTRIES INCLUDED-->
+    <div class="row pt-5">
+      <h2
+        class="col-lg-12 section-title"
+        style="color: #3b5d50; text-align: center"
+      >
+        Markets Proudly Served
+      </h2>
+    </div>
+
+    <div class="product-section p-5">
+      <div class="container">
+        <div class="row">
+          <!-- Start Column 1 -->
+
+          <div class="col-md-4 col-12 pb-3">
+            <a class="product-item pb-0" href="#">
+              <img
+                src="images/post-1.jpg"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Pharmaceutical Industry</h3>
+              <p>
+                We specialize in manufacturing high-quality plastic packaging
+                solutions for the pharmaceutical industry, ensuring safety,
+                durability, and compliance with industry standards
+              </p>
+            </a>
+          </div>
+          <!-- End Column 1 -->
+
+          <!-- Start Column 2 -->
+          <div class="col-md-4 col-12 pb-3">
+            <a class="product-item pb-0" href="#">
+              <img
+                src="images/post-2.jpg"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Lubrication Industry</h3>
+              <p>
+                We provide durable and leak-proof plastic packaging solutions
+                tailored for the lubrication industry, ensuring product
+                integrity and efficient storage.
+              </p>
+            </a>
+          </div>
+          <!-- End Column 2 -->
+
+          <!-- Start Column 3 -->
+          <div class="col-md-4 col-12 pb-3">
+            <a class="product-item pb-0" href="#">
+              <img
+                src="images/post-3.jpg"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Food Industry</h3>
+              <p>
+                Our high-quality food-grade plastic packaging meets strict
+                safety standards, preserving freshness and ensuring consumer
+                trust.
+              </p>
+            </a>
+          </div>
+          <!-- End Column 3 -->
+        </div>
+      </div>
+    </div>
+    <!--END OF INDUSTRIES INCLUDED-->
+
+    <!--start of VISION-->
+    <div style="padding-bottom: 5%">
+      <section
+        style="position: relative; width: 100%; height: 400px; overflow: hidden"
+      >
+        <!-- Background Image with Opacity -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('./images/customer_satisfaction_section.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 1; /* Change opacity here */
+            z-index: 1;
+          "
+        ></div>
+
+        <!-- Text Content -->
+        <div
+          style="
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(
+              0,
+              0,
+              0,
+              0.5
+            ); /* Dark background with 60% opacity */
+            height: 100%;
+            text-align: center;
+            color: white;
+          "
+        >
+          <div style="padding: 40px 20px; max-width: 800px">
+            <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px">
+              Our Vision
+            </h2>
+
+            <p style="font-size: 16px; line-height: 1.6">
+              To become Pakistan's largest plastic molding company and a
+              globally recognized exporter within the next decade by delivering
+              superior quality, innovative solutions, and cost-effective
+              products. Guided by our commitment to research and development, we
+              aim to serve our customers’ customers, adding value to their
+              products and driving mutual success while contributing to
+              sustainable industrial growth and fostering long-term partnerships
+              worldwide.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--end of this section-->
+
+    <!-- Start Why Choose Us Section -->
+    <div class="row mt-4">
+      <h2
+        class="col-lg-12 section-title"
+        style="color: #3b5d50; text-align: center"
+      >
+        Our Exports
+      </h2>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9 mb-5" style="text-align: center">
+        <p style="margin: 0 auto">
+          Over the years, we have expanded our reach beyond borders, exporting
+          high-quality products to neighboring countries. These international
+          partnerships have allowed us to establish strong ties with global
+          clients, enhancing our reputation as a reliable and innovative plastic
+          manufacturing partner.
+        </p>
+      </div>
+    </div>
+
+    <!-- End Why Choose Us Section -->
+
+    <!--start of VISION-->
+    <div style="padding-top: 5%">
+      <section
+        style="position: relative; width: 100%; height: 400px; overflow: hidden"
+      >
+        <!-- Background Image with Opacity -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('./images/customer_satisfaction_section.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 1; /* Change opacity here */
+            z-index: 1;
+          "
+        ></div>
+
+        <!-- Text Content -->
+        <div
+          style="
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(
+              0,
+              0,
+              0,
+              0.5
+            ); /* Dark background with 60% opacity */
+            height: 100%;
+            text-align: center;
+            color: white;
+          "
+        >
+          <div style="padding: 40px 20px; max-width: 800px">
+            <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px">
+              Customer Satisfaction at the Core
+            </h2>
+
+            <p style="font-size: 16px; line-height: 1.6">
+              We understand that our customers rely on our products to meet
+              their specific needs, and we take this responsibility seriously.
+              Our quality assurance process involves close collaboration with
+              our customers to understand their requirements and ensure that our
+              products meet their expectations.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--end of this section-->
+    <!--
+    Start We Help Section 
+<div class="we-help-section p-0">
+  <div class="container">
+    <h2 class="section-title mb-4" style="text-align: center; color: #3b5d50">
+      Policies – Irfani Engineering Works
+    </h2>
+
+    <div class="row justify-content-between">
+      <div class="col-lg-12">
+        <h2>Halal Policy</h2>
+        <p>
+          At Irfani Engineering Works, we are committed to manufacturing and
+          supplying Halal-compliant packaging solutions, ensuring strict
+          adherence to Islamic dietary laws and hygiene standards. Our Halal
+          policy ensures:
+        </p>
+
+        Wrap your list in a row 
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled custom-list">
+              <li>
+                Strict compliance with Halal certification requirements,
+                ensuring all materials and processes meet Islamic standards.
+              </li>
+              <li>
+                A structured policy implementation framework ensuring continuous
+                adherence and improvement.
+              </li>
+              <li>
+                Implementation of Good Manufacturing Practices (GMPs) for
+                hygiene, sanitation, and safety.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled custom-list">
+              <li>
+                Regular training and awareness programs for employees on Halal
+                compliance, personal hygiene, and sanitation.
+              </li>
+              <li>
+                Identification and examination of Halal control points across
+                production, storage, and transportation to prevent contamination.
+              </li>
+              <li>
+                No haram or najis materials are used in the manufacturing
+                process.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-between mt-4">
+      <div class="col-lg-12">
+        <h2>Environmental & Sustainability Policy</h2>
+        <p>
+          Irfani Engineering Works is committed to environmental responsibility
+          by implementing eco-friendly materials, reducing waste, and improving
+          energy efficiency. Our sustainability initiatives include:
+        </p>
+
+      Wrap your list in a row 
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled custom-list">
+              <li>
+                Using recyclable and biodegradable materials to minimize
+                environmental impact.
+              </li>
+              <li>
+                Optimizing energy consumption through advanced, energy-efficient
+                machinery.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled custom-list">
+              <li>
+                Reducing carbon footprint by implementing sustainable
+                transportation and logistics solutions.
+              </li>
+              <li>
+                Compliance with environmental regulations, ensuring a greener
+                future for generations to come.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+     End of container 
+  </div>
+</div>
+End We Help Section 
+-->
+    <!--end of this section-->
+
+    <!-- Start We Help Section -->
+    <!--<div class="we-help-section">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-7 mb-5 mb-lg-0">
+            <div class="imgs-grid">
+              <div class="grid grid-1">
+                <img src="images/product-01.jpg" alt="Untree.co" />
+              </div>
+              <div class="grid grid-2">
+                <img src="images/product-02.jpg" alt="Untree.co" />
+              </div>
+              <div class="grid grid-3">
+                <img src="images/product-01.jpg" alt="Untree.co" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 ps-lg-5">
+            <h2 class="section-title mb-4">
+              We Help You Make Modern Solution to your Packaging
+            </h2>
+            <p>
+              Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada
+            </p>
+            <p>
+              Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada
+            </p>
+
+            <ul class="list-unstyled custom-list my-4">
+              <li>Donec vitae odio quis nisl dapibus malesuada</li>
+              <li>Donec vitae odio quis nisl dapibus malesuada</li>
+              <li>Donec vitae odio quis nisl dapibus malesuada</li>
+              <li>Donec vitae odio quis nisl dapibus malesuada</li>
+            </ul>
+            <p><a herf="#" class="btn">Products and Services</a></p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- End We Help Section -->
+
+    <!-- Start Testimonial Slider -->
+    <div
+      class="testimonial-section before-footer-section"
+      style="background-color: #eaedf5"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="row mt-4">
+            <h2
+              class="col-lg-12 section-title"
+              style="color: #3b5d50; text-align: center"
+            >
+              Testimonials
+            </h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="testimonial-slider-wrap text-center">
+              <div id="testimonial-nav">
+                <span class="prev" data-controls="prev"
+                  ><span class="fa fa-chevron-left"></span
+                ></span>
+                <span class="next" data-controls="next"
+                  ><span class="fa fa-chevron-right"></span
+                ></span>
+              </div>
+
+              <div class="testimonial-slider">
+                <div class="item">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 mx-auto">
+                      <div class="testimonial-block text-center">
+                        <blockquote class="mb-5">
+                          <p>
+                            &ldquo;Donec facilisis quam ut purus rutrum
+                            lobortis. Donec vitae odio quis nisl dapibus
+                            malesuada. Nullam ac aliquet velit. Aliquam
+                            vulputate velit imperdiet dolor tempor tristique.
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Integer
+                            convallis volutpat dui quis scelerisque.&rdquo;
+                          </p>
+                        </blockquote>
+
+                        <div class="author-info">
+                          <div class="author-pic">
+                            <img
+                              src="images/person-1.png"
+                              alt="Maria Jones"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <h3 class="font-weight-bold">Maria Jones</h3>
+                          <span class="position d-block mb-3"
+                            >CEO, Co-Founder, XYZ Inc.</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END item -->
+
+                <div class="item">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 mx-auto">
+                      <div class="testimonial-block text-center">
+                        <blockquote class="mb-5">
+                          <p>
+                            &ldquo;Donec facilisis quam ut purus rutrum
+                            lobortis. Donec vitae odio quis nisl dapibus
+                            malesuada. Nullam ac aliquet velit. Aliquam
+                            vulputate velit imperdiet dolor tempor tristique.
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Integer
+                            convallis volutpat dui quis scelerisque.&rdquo;
+                          </p>
+                        </blockquote>
+
+                        <div class="author-info">
+                          <div class="author-pic">
+                            <img
+                              src="images/person-1.png"
+                              alt="Maria Jones"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <h3 class="font-weight-bold">Maria Jones</h3>
+                          <span class="position d-block mb-3"
+                            >CEO, Co-Founder, XYZ Inc.</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END item -->
+
+                <div class="item">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 mx-auto">
+                      <div class="testimonial-block text-center">
+                        <blockquote class="mb-5">
+                          <p>
+                            &ldquo;Donec facilisis quam ut purus rutrum
+                            lobortis. Donec vitae odio quis nisl dapibus
+                            malesuada. Nullam ac aliquet velit. Aliquam
+                            vulputate velit imperdiet dolor tempor tristique.
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas. Integer
+                            convallis volutpat dui quis scelerisque.&rdquo;
+                          </p>
+                        </blockquote>
+
+                        <div class="author-info">
+                          <div class="author-pic">
+                            <img
+                              src="images/person-1.png"
+                              alt="Maria Jones"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <h3 class="font-weight-bold">Maria Jones</h3>
+                          <span class="position d-block mb-3"
+                            >CEO, Co-Founder, XYZ Inc.</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial Slider -->
+
+    <!--start of Our Clients-->
+    <section>
+      <div>
+        <div class="row mt-5">
+          <h2
+            class="col-lg-12 section-title"
+            style="color: #3b5d50; text-align: center"
+          >
+            Our Trusted Clients
+          </h2>
+        </div>
+
+        <div class="product-section p-5">
+          <div class="container">
+            <div class="row">
+              <!-- Start Column 1 -->
+
+              <div class="">
+                <img
+                  src="images/customer_satisfaction_section.jpg"
+                  class="img-fluid"
+                />
+                <!--- <p class="product-title">Baariq Pharmaceutical</p> -->
+              </div>
+              <!-- End Column 1 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End of Our Client-->
+
+    <!-- Start Clients Logo -->
+    <div class="container pt-5">
+      <div class="row mt-4">
+        <h2
+          class="col-lg-12 section-title text-center mb-5"
+          style="color: #3b5d50; text-align: center"
+        >
+          Brand Logos
+        </h2>
+      </div>
+
+      <div class="carousel-container mb-5">
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <img src="./images/post-1.jpg" alt="Logo 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/post-2.jpg" alt="Logo 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/post-3.jpg" alt="Logo 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/post-1.jpg" alt="Logo 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/post-2.jpg" alt="Logo 5" />
+          </div>
+          <!--<div class="carousel-item">
+        <img src="images/person_2.jpg" alt="Logo 6" />
+      </div>
+      <div class="carousel-item">
+        <img src="images/person_3.jpg" alt="Logo 7" />
+      </div>
+      <div class="carousel-item">
+        <img src="images/person_4.jpg" alt="Logo 8" />
+      </div>-->
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./js/logo.js" />
+    <link rel="stylesheet" href="./css/logo.css" />
+    <!-- End Clients Logo -->
+
+    <!-- End brand logos Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer-section">
+      <div class="container relative">
+        <!--
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+
+							<form action="#" class="row g-3">
+								<div class="col-auto">
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="col-auto">
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+				-->
+
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <div class="mb-4 footer-logo-wrap">
+              <a href="#" class="footer-logo"
+                >Irfani Enginerring Works <span>.</span></a
+              >
+            </div>
+            <p class="mb-4">
+              Irfani Engineering Works is an industry that manufacture high
+              quality plastic wares, including injection and blow moulding, with
+              various colour variation for pharma, lubrication industry and food
+              grade industry. Our facilities are equipped with advanced
+              machinery and technology to meet the diverse needs of our clients
+              across various industries.
+            </p>
+          </div>
+
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="row links-wrap">
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <ul
+                  class="list-unstyled"
+                  style="line-height: 18px; display: block"
+                >
+                  <h6 style="color: #3b5d50">Hyperlinks</h6>
+                  <li><a href="#">- About us</a></li>
+                  <li><a href="#">- Services</a></li>
+                  <li><a href="#">- Contact us</a></li>
+                  <li><a href="#">- Products</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <ul class="list-unstyled">
+                  <h6 style="color: #3b5d50">Mailing Address</h6>
+
+                  <li>
+                    <a style="line-height: 18px; display: block"
+                      >- 175-D, Wahdat Road, Lahore, Pakistan
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <ul class="list-unstyled">
+                  <h6 style="color: #3b5d50">Contact Us</h6>
+                  <a style="line-height: 24px; display: block">
+                    <span>- 0321-4691817 </span> <br /><span
+                      >- 0333-4455918</span
+                    >
+                  </a>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <ul class="list-unstyled">
+                  <h6 style="color: #3b5d50">Located At</h6>
+
+                  <li>
+                    <a style="line-height: 18px; display: block"
+                      >- 175-D, Wahdat Road, Lahore, Pakistan
+                    </a>
+                  </li>
+                  <li>
+                    <a style="line-height: 18px; display: block"
+                      >- 35-B, Sundar Industrial Estate 2, Lahore, Pakistan</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <ul class="list-unstyled custom-social">
+            <li>
+              <a href="#"><span class="fa fa-brands fa-facebook-f"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-brands fa-twitter"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-brands fa-instagram"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-brands fa-linkedin"></span></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="border-top copyright">
+          <div class="row pt-4">
+            <div class="col-lg-6">
+              <p class="mb-2 text-center text-lg-start">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                . All Rights Reserved.
+                <!-- License information: https://untree.co/license/ -->
+              </p>
+            </div>
+
+            <!--		<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
